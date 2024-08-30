@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE49DEED2C826A4E0002AAA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49DEEC2C826A4E0002AAA7 /* AppDelegate.swift */; };
+		EE49DEEF2C826A4E0002AAA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49DEEE2C826A4E0002AAA7 /* SceneDelegate.swift */; };
+		EE49DEF12C826A4E0002AAA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49DEF02C826A4E0002AAA7 /* ViewController.swift */; };
+		EE49DEF42C826A4E0002AAA7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EE49DEF32C826A4E0002AAA7 /* Base */; };
+		EE49DEF62C826A500002AAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE49DEF52C826A500002AAA7 /* Assets.xcassets */; };
+		EE49DEF92C826A500002AAA7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EE49DEF82C826A500002AAA7 /* Base */; };
+		EE49DF042C826A500002AAA7 /* AureoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49DF032C826A500002AAA7 /* AureoTests.swift */; };
+		EE49DF0E2C826A500002AAA7 /* AureoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49DF0D2C826A500002AAA7 /* AureoUITests.swift */; };
+		EE49DF102C826A500002AAA7 /* AureoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49DF0F2C826A500002AAA7 /* AureoUITestsLaunchTests.swift */; };
+		EE49DF1E2C826CE00002AAA7 /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE49DF1D2C826CE00002AAA7 /* LinkKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE49DF002C826A500002AAA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE49DEE12C826A4E0002AAA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE49DEE82C826A4E0002AAA7;
+			remoteInfo = Aureo;
+		};
+		EE49DF0A2C826A500002AAA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE49DEE12C826A4E0002AAA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE49DEE82C826A4E0002AAA7;
+			remoteInfo = Aureo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE49DEE92C826A4E0002AAA7 /* Aureo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aureo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE49DEEC2C826A4E0002AAA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE49DEEE2C826A4E0002AAA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE49DEF02C826A4E0002AAA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE49DEF32C826A4E0002AAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE49DEF52C826A500002AAA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE49DEF82C826A500002AAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE49DEFA2C826A500002AAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE49DEFF2C826A500002AAA7 /* AureoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AureoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE49DF032C826A500002AAA7 /* AureoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AureoTests.swift; sourceTree = "<group>"; };
+		EE49DF092C826A500002AAA7 /* AureoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AureoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE49DF0D2C826A500002AAA7 /* AureoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AureoUITests.swift; sourceTree = "<group>"; };
+		EE49DF0F2C826A500002AAA7 /* AureoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AureoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE49DEE62C826A4E0002AAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE49DF1E2C826CE00002AAA7 /* LinkKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE49DEFC2C826A500002AAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE49DF062C826A500002AAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE49DEE02C826A4E0002AAA7 = {
+			isa = PBXGroup;
+			children = (
+				EE49DEEB2C826A4E0002AAA7 /* Aureo */,
+				EE49DF022C826A500002AAA7 /* AureoTests */,
+				EE49DF0C2C826A500002AAA7 /* AureoUITests */,
+				EE49DEEA2C826A4E0002AAA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE49DEEA2C826A4E0002AAA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE49DEE92C826A4E0002AAA7 /* Aureo.app */,
+				EE49DEFF2C826A500002AAA7 /* AureoTests.xctest */,
+				EE49DF092C826A500002AAA7 /* AureoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE49DEEB2C826A4E0002AAA7 /* Aureo */ = {
+			isa = PBXGroup;
+			children = (
+				EE49DEEC2C826A4E0002AAA7 /* AppDelegate.swift */,
+				EE49DEEE2C826A4E0002AAA7 /* SceneDelegate.swift */,
+				EE49DEF02C826A4E0002AAA7 /* ViewController.swift */,
+				EE49DEF22C826A4E0002AAA7 /* Main.storyboard */,
+				EE49DEF52C826A500002AAA7 /* Assets.xcassets */,
+				EE49DEF72C826A500002AAA7 /* LaunchScreen.storyboard */,
+				EE49DEFA2C826A500002AAA7 /* Info.plist */,
+			);
+			path = Aureo;
+			sourceTree = "<group>";
+		};
+		EE49DF022C826A500002AAA7 /* AureoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE49DF032C826A500002AAA7 /* AureoTests.swift */,
+			);
+			path = AureoTests;
+			sourceTree = "<group>";
+		};
+		EE49DF0C2C826A500002AAA7 /* AureoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE49DF0D2C826A500002AAA7 /* AureoUITests.swift */,
+				EE49DF0F2C826A500002AAA7 /* AureoUITestsLaunchTests.swift */,
+			);
+			path = AureoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE49DEE82C826A4E0002AAA7 /* Aureo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE49DF132C826A500002AAA7 /* Build configuration list for PBXNativeTarget "Aureo" */;
+			buildPhases = (
+				EE49DEE52C826A4E0002AAA7 /* Sources */,
+				EE49DEE62C826A4E0002AAA7 /* Frameworks */,
+				EE49DEE72C826A4E0002AAA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aureo;
+			packageProductDependencies = (
+				EE49DF1D2C826CE00002AAA7 /* LinkKit */,
+			);
+			productName = Aureo;
+			productReference = EE49DEE92C826A4E0002AAA7 /* Aureo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE49DEFE2C826A500002AAA7 /* AureoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE49DF162C826A500002AAA7 /* Build configuration list for PBXNativeTarget "AureoTests" */;
+			buildPhases = (
+				EE49DEFB2C826A500002AAA7 /* Sources */,
+				EE49DEFC2C826A500002AAA7 /* Frameworks */,
+				EE49DEFD2C826A500002AAA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE49DF012C826A500002AAA7 /* PBXTargetDependency */,
+			);
+			name = AureoTests;
+			productName = AureoTests;
+			productReference = EE49DEFF2C826A500002AAA7 /* AureoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE49DF082C826A500002AAA7 /* AureoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE49DF192C826A500002AAA7 /* Build configuration list for PBXNativeTarget "AureoUITests" */;
+			buildPhases = (
+				EE49DF052C826A500002AAA7 /* Sources */,
+				EE49DF062C826A500002AAA7 /* Frameworks */,
+				EE49DF072C826A500002AAA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE49DF0B2C826A500002AAA7 /* PBXTargetDependency */,
+			);
+			name = AureoUITests;
+			productName = AureoUITests;
+			productReference = EE49DF092C826A500002AAA7 /* AureoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE49DEE12C826A4E0002AAA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE49DEE82C826A4E0002AAA7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EE49DEFE2C826A500002AAA7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE49DEE82C826A4E0002AAA7;
+					};
+					EE49DF082C826A500002AAA7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE49DEE82C826A4E0002AAA7;
+					};
+				};
+			};
+			buildConfigurationList = EE49DEE42C826A4E0002AAA7 /* Build configuration list for PBXProject "Aureo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE49DEE02C826A4E0002AAA7;
+			packageReferences = (
+				EE49DF1C2C826CE00002AAA7 /* XCRemoteSwiftPackageReference "plaid-link-ios" */,
+			);
+			productRefGroup = EE49DEEA2C826A4E0002AAA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE49DEE82C826A4E0002AAA7 /* Aureo */,
+				EE49DEFE2C826A500002AAA7 /* AureoTests */,
+				EE49DF082C826A500002AAA7 /* AureoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE49DEE72C826A4E0002AAA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE49DEF62C826A500002AAA7 /* Assets.xcassets in Resources */,
+				EE49DEF92C826A500002AAA7 /* Base in Resources */,
+				EE49DEF42C826A4E0002AAA7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE49DEFD2C826A500002AAA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE49DF072C826A500002AAA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE49DEE52C826A4E0002AAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE49DEF12C826A4E0002AAA7 /* ViewController.swift in Sources */,
+				EE49DEED2C826A4E0002AAA7 /* AppDelegate.swift in Sources */,
+				EE49DEEF2C826A4E0002AAA7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE49DEFB2C826A500002AAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE49DF042C826A500002AAA7 /* AureoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE49DF052C826A500002AAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE49DF0E2C826A500002AAA7 /* AureoUITests.swift in Sources */,
+				EE49DF102C826A500002AAA7 /* AureoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE49DF012C826A500002AAA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE49DEE82C826A4E0002AAA7 /* Aureo */;
+			targetProxy = EE49DF002C826A500002AAA7 /* PBXContainerItemProxy */;
+		};
+		EE49DF0B2C826A500002AAA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE49DEE82C826A4E0002AAA7 /* Aureo */;
+			targetProxy = EE49DF0A2C826A500002AAA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE49DEF22C826A4E0002AAA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE49DEF32C826A4E0002AAA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE49DEF72C826A500002AAA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE49DEF82C826A500002AAA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE49DF112C826A500002AAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE49DF122C826A500002AAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE49DF142C826A500002AAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aureo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adebayosotannde.Aureo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE49DF152C826A500002AAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aureo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adebayosotannde.Aureo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE49DF172C826A500002AAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adebayosotannde.AureoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aureo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aureo";
+			};
+			name = Debug;
+		};
+		EE49DF182C826A500002AAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adebayosotannde.AureoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aureo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aureo";
+			};
+			name = Release;
+		};
+		EE49DF1A2C826A500002AAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adebayosotannde.AureoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aureo;
+			};
+			name = Debug;
+		};
+		EE49DF1B2C826A500002AAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adebayosotannde.AureoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aureo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE49DEE42C826A4E0002AAA7 /* Build configuration list for PBXProject "Aureo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE49DF112C826A500002AAA7 /* Debug */,
+				EE49DF122C826A500002AAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE49DF132C826A500002AAA7 /* Build configuration list for PBXNativeTarget "Aureo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE49DF142C826A500002AAA7 /* Debug */,
+				EE49DF152C826A500002AAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE49DF162C826A500002AAA7 /* Build configuration list for PBXNativeTarget "AureoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE49DF172C826A500002AAA7 /* Debug */,
+				EE49DF182C826A500002AAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE49DF192C826A500002AAA7 /* Build configuration list for PBXNativeTarget "AureoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE49DF1A2C826A500002AAA7 /* Debug */,
+				EE49DF1B2C826A500002AAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE49DF1C2C826CE00002AAA7 /* XCRemoteSwiftPackageReference "plaid-link-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE49DF1D2C826CE00002AAA7 /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE49DF1C2C826CE00002AAA7 /* XCRemoteSwiftPackageReference "plaid-link-ios" */;
+			productName = LinkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE49DEE12C826A4E0002AAA7 /* Project object */;
+}
